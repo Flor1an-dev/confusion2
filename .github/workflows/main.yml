@@ -20,5 +20,5 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --no-index --find-links https://pypi.org/simple -r requirements.txt
+          pip install --find-links https://pypi.org/simple --no-index -r requirements.txt
 
